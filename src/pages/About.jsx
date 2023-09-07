@@ -14,19 +14,15 @@ const About = () => {
           <div></div>
         </div>
         <div className="max-w-[1000px] w-full flex flex-col-2 gap-8 px-4">
-          <div className="text-2xl font-bold text-center">
+          <div className="text-2xl font-bold text-center md:text-3xl">
             <p>Hi. I'm Durmus, nice to meet you.</p>
           </div>
           <div className="w-full">
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Temporibus voluptatem veritatis animi aliquid quisquam dolor
-              ducimus? Inventore debitis suscipit, in sequi, atque voluptates
-              eum non corrupti, iure omnis veniam tempore. Autem, sint? Laborum,
-              non! Vel, aperiam voluptate vero ad debitis ipsam odit
-              perspiciatis illo sunt accusantium. Accusantium eaque, assumenda
-              maxime id natus eveniet ipsa, pariatur tempore officiis magni
-              porro exercitationem!
+            <p className="md:text-2xl">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur, debitis? Voluptate, ipsum odio corrupti accusantium
+              commodi perferendis dolore? Nisi fuga laboriosam voluptas eaque,
+              mollitia velit soluta impedit fugiat enim! Possimus?
             </p>
           </div>
         </div>

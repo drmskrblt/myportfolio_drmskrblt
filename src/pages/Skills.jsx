@@ -9,7 +9,7 @@ import { TbBrandBootstrap } from "react-icons/tb";
 
 const Skills = () => {
   return (
-    <section className="w-full h-screen bg-[#1f2833] text-[#c5c6c7]">
+    <section name="skills" className="w-full h-screen bg-[#1f2833] text-[#c5c6c7]">
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center items-center h-full">
         <div className="md:text-center pb-8 pl-4">
           <p className="text-4xl font-bold inline border-b-4 border-[#45a29e]">
@@ -19,42 +19,42 @@ const Skills = () => {
 
         {/* HTML CSS ETC */}
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4">
-          <div className="flex flex-col justify-center items-center shadow-lg p-5 gap-3 border-2 border-slate-800 rounded-xl">
+          <div className="flex flex-col justify-center items-center shadow-lg p-5 gap-3 border-2 border-slate-800 rounded-xl bg-slate-700">
             <p className="text-2xl p-1 text-[#45a29e]">HTML</p>
             <AiFillHtml5 className="text-4xl text-blue-500"/>
           </div>
 
-          <div className="flex flex-col justify-center items-center shadow-lg p-5 gap-3 border-2 border-slate-800 rounded-xl">
+          <div className="flex flex-col justify-center items-center shadow-lg p-5 gap-3 border-2 border-slate-800 rounded-xl bg-slate-700">
             <p className="text-2xl p-1 mx-2 text-[#45a29e]">CSS</p>
             <DiCss3 className="text-4xl text-orange-300"/>
           </div>
 
-          <div className="flex flex-col justify-center items-center shadow-lg p-5 gap-3 border-2 border-slate-800 rounded-xl">
+          <div className="flex flex-col justify-center items-center shadow-lg p-5 gap-3 border-2 border-slate-800 rounded-xl bg-slate-700">
             <p className="text-2xl p-1 mx-2 text-[#45a29e]">Sass</p>
             <DiSass className="text-4xl text-pink-400"/>
           </div>
 
-          <div className="flex flex-col justify-center items-center shadow-lg p-5 gap-3 border-2 border-slate-800 rounded-xl">
+          <div className="flex flex-col justify-center items-center shadow-lg p-5 gap-3 border-2 border-slate-800 rounded-xl bg-slate-700">
             <p className="text-2xl p-1 mx-2 text-[#45a29e]">Javascript</p>
             <BiLogoJavascript className="text-4xl text-yellow-400"/>
           </div>
 
-          <div className="flex flex-col justify-center items-center shadow-lg p-5 gap-3 border-2 border-slate-800 rounded-xl">
+          <div className="flex flex-col justify-center items-center shadow-lg p-5 gap-3 border-2 border-slate-800 rounded-xl bg-slate-700">
             <p className="text-2xl p-1 mx-2 text-[#45a29e]">ReactJS</p>
             <BiLogoReact className="text-4xl text-blue-700"/>
           </div>
 
-          <div className="flex flex-col justify-center items-center shadow-lg p-5 gap-3 border-2 border-slate-800 rounded-xl">
+          <div className="flex flex-col justify-center items-center shadow-lg p-5 gap-3 border-2 border-slate-800 rounded-xl bg-slate-700">
             <p className="text-2xl p-1 mx-2 text-[#45a29e]">TailwindCSS</p>
             <BiLogoTailwindCss className="text-4xl text-blue-300"/>
           </div>
 
-          <div className="flex flex-col justify-center items-center shadow-lg p-5 gap-3 border-2 border-slate-800 rounded-xl">
+          <div className="flex flex-col justify-center items-center shadow-lg p-5 gap-3 border-2 border-slate-800 rounded-xl bg-slate-700">
             <p className="text-2xl p-1 mx-2 text-[#45a29e]">Bootstrap</p>
             <TbBrandBootstrap className="text-4xl text-purple-500"/>
           </div>
 
-          <div className="flex flex-col justify-center items-center shadow-lg p-5 gap-3 border-2 border-slate-800 rounded-xl">
+          <div className="flex flex-col justify-center items-center shadow-lg p-5 gap-3 border-2 border-slate-800 rounded-xl bg-slate-700">
             <p className="text-2xl p-1 mx-2 text-[#45a29e]">GitHub</p>
             <AiFillGithub className="text-4xl text-black"/>
           </div>

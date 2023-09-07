@@ -13,8 +13,5 @@
         @apply px-4;
         @apply cursor-pointer;
     }
-    section {
-        border-top: 6px solid #45a29e;
-    }
 }
 

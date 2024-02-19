@@ -1,4 +1,8 @@
-import placeholderImage from "../images/PLACEHOLDER-IMAGE.png";
+// import placeholderImage from "../images/PLACEHOLDER-IMAGE.png";
+import PlaystationProject from "../images/PlaystationProject.png"
+import GitHubSearchProject from "../images/GitHubSearchProject.png"
+import PortfolioProject from "../images/PortfolioProject.png"
+import EnergizeMeProject from "../images/EnergizeMeProject2.png"
 
 const Projects = () => {
   return (
@@ -16,90 +20,110 @@ const Projects = () => {
         {/* CONTAINER */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-7 ">
           {/* CARDS */}
-          <div className="shadow-lg shadow-[#040c16] bg-slate-700 group rounded-2xl flex flex-col justify-start items-center p-1 hover:scale-110 duration-500">
+          <div className="shadow-lg shadow-[#040c16] bg-slate-700 group rounded-2xl flex flex-col justify-start items-center p-1 hover:scale-105 duration-500">
             <img
-              className="object-contain rounded-2xl"
-              src={placeholderImage}
+              className="rounded-2xl h-[400px]"
+              src={PlaystationProject}
               alt="placeholder projects preview"
             />
-            <div className="flex gap-3">
+            <span className="p-2">
+              Frontend, HTML/CSS Project
+            </span>
+            <div className="flex gap-3 p-2">
               <a
-                href="#projects"
-                className="hidden group-hover:block my-4 text-[#45a29e] p-2 rounded-xl border"
+                href="https://github.com/drmskrblt/WebDevCrashCourse_Project_drmskrblt"
+                className="m-4 text-[#45a29e] p-2 rounded-xl border"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 GitHub
               </a>
               <a
-                href="#projects"
-                className="hidden group-hover:block my-4 text-[#45a29e] p-2 rounded-xl border"
+                href="https://drmskrblt.github.io/WebDevCrashCourse_Project_drmskrblt"
+                className="my-4 text-[#45a29e] p-2 rounded-xl border"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Demo
               </a>
             </div>
           </div>
 
-          <div className="shadow-lg shadow-[#040c16] bg-slate-700 group rounded-2xl flex flex-col justify-start items-center p-1 hover:scale-110 duration-500">
+          <div className="shadow-lg shadow-[#040c16] bg-slate-700 group rounded-2xl flex flex-col justify-start items-center p-1 hover:scale-105 duration-500">
             <img
-              className="object-contain rounded-2xl"
-              src={placeholderImage}
+              className="rounded-2xl h-[400px]"
+              src={GitHubSearchProject}
               alt="placeholder projects preview"
             />
-            <div className="flex gap-3">
+             <span className="p-2">
+              Full-Stack, HTML/CSS Project
+            </span>
+            <div className="flex gap-3 p-2">
               <a
-                href="#projects"
-                className="hidden group-hover:block my-4 text-[#45a29e] p-2 rounded-xl border"
+                href="https://github.com/drmskrblt/github-search_drmskrblt"
+                className="my-4 text-[#45a29e] p-2 rounded-xl border"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 GitHub
               </a>
               <a
-                href="#projects"
-                className="hidden group-hover:block my-4 text-[#45a29e] p-2 rounded-xl border"
+                href="https://drmskrblt.github.io/github-search_drmskrblt"
+                className="my-4 text-[#45a29e] p-2 rounded-xl border"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Demo
               </a>
             </div>
           </div>
 
-          <div className="shadow-lg shadow-[#040c16] bg-slate-700 group rounded-2xl flex flex-col justify-start items-center p-1 hover:scale-110 duration-500">
+          <div className="shadow-lg shadow-[#040c16] bg-slate-700 group rounded-2xl flex flex-col justify-start items-center p-1 hover:scale-105 duration-500">
             <img
-              className="object-contain rounded-2xl"
-              src={placeholderImage}
+              className="rounded-2xl h-[400px]"
+              src={PortfolioProject}
               alt="placeholder projects preview"
             />
+            <span className="p-2">
+              Frontend, React Project
+            </span>
             <div className="flex gap-3">
               <a
-                href="#projects"
-                className="hidden group-hover:block my-4 text-[#45a29e] p-2 rounded-xl border"
+                href="https://github.com/drmskrblt/myportfolio_drmskrblt"
+                className="my-4 text-[#45a29e] p-2 rounded-xl border"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 GitHub
               </a>
               <a
-                href="#projects"
-                className="hidden group-hover:block my-4 text-[#45a29e] p-2 rounded-xl border"
+                href="https://myportfolio-durmus.netlify.app"
+                className="my-4 text-[#45a29e] p-2 rounded-xl border"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Demo
               </a>
             </div>
           </div>
 
-          <div className="shadow-lg shadow-[#040c16] bg-slate-700 group rounded-2xl flex flex-col justify-start items-center p-1 hover:scale-110 duration-500">
+          <div className="shadow-lg shadow-[#040c16] bg-slate-700 group rounded-2xl flex flex-col justify-start items-center p-1 hover:scale-105 duration-500">
             <img
-              className="object-contain rounded-2xl"
-              src={placeholderImage}
+              className="rounded-2xl h-[400px]"
+              src={EnergizeMeProject}
               alt="placeholder projects preview"
             />
+            <span className="p-2">
+              Full-Stack, React, Tailwind
+            </span>
             <div className="flex gap-3">
               <a
-                href="#projects"
-                className="hidden group-hover:block my-4 text-[#45a29e] p-2 rounded-xl border"
+                href="https://github.com/Raum7-Final-Project/EnergizeMe"
+                className="my-4 text-[#45a29e] p-2 rounded-xl border"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 GitHub
-              </a>
-              <a
-                href="#projects"
-                className="hidden group-hover:block my-4 text-[#45a29e] p-2 rounded-xl border"
-              >
-                Demo
               </a>
             </div>
           </div>

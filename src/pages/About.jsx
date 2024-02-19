@@ -19,10 +19,7 @@ const About = () => {
           </div>
           <div className="w-full">
             <p className="md:text-2xl">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consectetur, debitis? Voluptate, ipsum odio corrupti accusantium
-              commodi perferendis dolore? Nisi fuga laboriosam voluptas eaque,
-              mollitia velit soluta impedit fugiat enim! Possimus?
+            Immersed in an intensive year of web development exploration, I've honed my skills across both front-end and back-end technologies to create seamless digital experiences that captivate and inspire. My journey has equipped me with a profound toolkit, enabling me to push the boundaries of online possibilities, aiming for excellence in every project to deliver innovative and accessible web solutions.
             </p>
           </div>
         </div>

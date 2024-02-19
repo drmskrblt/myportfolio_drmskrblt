@@ -25,7 +25,7 @@ const Contact = () => {
           <input
             type="text"
             id="email"
-            className="p-3 rounded-lg"
+            className="p-3 rounded-lg text-black"
             placeholder="example@mail.com"
             required
             name="email"
@@ -40,7 +40,7 @@ const Contact = () => {
           <input
             type="text"
             id="subject"
-            className="p-3 rounded-lg"
+            className="p-3 rounded-lg text-black"
             placeholder="What is it about?"
             name="subject"
             required
@@ -56,7 +56,7 @@ const Contact = () => {
             id="message"
             cols="30"
             rows="10"
-            className="p-3 rounded-lg"
+            className="p-3 rounded-lg text-black"
             placeholder="Leave me a message"
             name="message"
           ></textarea>

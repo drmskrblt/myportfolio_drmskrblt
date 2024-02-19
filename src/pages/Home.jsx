@@ -13,7 +13,7 @@ const Home = () => {
           I'm a Developer
         </h3>
         <p className="text-[#45a29e] text-center">
-          Currently studying at DCI and just finished Front End Developing
+          Full-Stack Web Developer
         </p>
         <div className="self-center">
           <button className="text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-[#45a29e] hover:border-[#45a29e]">

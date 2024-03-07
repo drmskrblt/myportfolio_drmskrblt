@@ -12,4 +12,4 @@ This portfolio is designed to provide an overview of my journey as a frontend de
 
 React, Tailwindcss
 
-To visit my Portfolio [click here](https://drmskrblt.github.io/finalproject)
+To visit my Portfolio [click here](https://portfolio-drmskrblt.netlify.app)

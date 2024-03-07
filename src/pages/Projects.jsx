@@ -97,7 +97,7 @@ const Projects = () => {
                 GitHub
               </a>
               <a
-                href="https://myportfolio-durmus.netlify.app"
+                href="https://portfolio-drmskrblt.netlify.app"
                 className="my-4 text-[#45a29e] p-2 rounded-xl border"
                 target="_blank"
                 rel="noopener noreferrer"
